@@ -1,4 +1,4 @@
-# Learning React 🦄
+# Learning React #1 🦄
 
 I learnt the basic concepts of React, how to use props and Map method in React.
 
