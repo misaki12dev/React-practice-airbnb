@@ -15,6 +15,7 @@ export default function App() {
         reviewCount={card.stats.reviewCount}
         location={card.location}
         price={card.price}
+        openSpots={card.openSpots}
       />
     );
   });
