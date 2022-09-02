@@ -45,7 +45,6 @@ section {
 
 .cards-list {
   display: flex;
-  justify-content: center;
   flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
