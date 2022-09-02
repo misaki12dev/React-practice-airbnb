@@ -5,13 +5,10 @@ import Card from "./components/Card";
 import data from "./data";
 
 export default function App() {
-  // <Hero />
-
-  console.log(data);
-
   const cards = data.map((card) => {
     return (
       <Card
+        key={card.id}
         img={card.coverImg}
         title={card.title}
         rating={card.stats.rating}
@@ -25,7 +22,8 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      {cards}
+      <Hero />
+      <div className="cards-list">{cards}</div>
     </div>
   );
 }
